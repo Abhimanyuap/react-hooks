@@ -1,0 +1,68 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.app{
+    height: 100vh;
+    width: 100vw;
+    background-color: #042c62;
+}
+
+.header h1{
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
+
+.container{
+    height: 85vh;
+    width: 80vw;
+    margin: auto;
+}
+
+
+.input {
+    height: 100px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type = 'text']{
+    height: 50px;
+    width: 30vh;
+}
+
+input[type = 'email']{
+    height: 50px;
+    width: 30vh;
+}
+
+.input>button{
+    height: 50px;
+    width: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0px 10px;
+    background-color: darkblue;
+}
+
+.records div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    color: white;
+}
+
+.records span img{
+    height: 30px;
+
+}

@@ -1,0 +1,49 @@
+body{
+  background-color: gray;
+  overflow-x : hidden;
+
+}
+
+.app{
+
+  width: 100vw;
+  min-height: 100vh;
+  .header{
+
+    h1{
+      text-align: center;
+      color: darkblue;
+      background-color: darkgoldenrod;
+      margin: 0;
+      
+    }
+  }
+
+  .movies{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+
+    .movie{
+       width: 200px;
+       height: 300px;
+       text-align: center;
+       font-weight: bold;
+       background-color: darkseagreen;
+       border-radius: 10px;
+       padding: 10px;
+       box-shadow: 
+        rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+       img{
+        height: 170px;
+        width: inherit;
+        border-radius: inherit;
+       }
+    }
+  }
+}
