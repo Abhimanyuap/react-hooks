@@ -1,13 +1,10 @@
 import React from 'react';
-// import Home from './useMemo/Home'
-// import Tooltip from './tooltip/Tooltip';
-import Parent from './useCallback/Parent';
-import Movies from './components1/Movies';
+import BookList from './1.dropxout/BookList';
 
 function App() {
   return (
     <div className='app'>
-      <Movies />
+      <BookList />
     </div>
   );
 }

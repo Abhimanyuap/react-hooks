@@ -9,6 +9,9 @@ const Container = () => {
   const [data, setData] = useState([]);
 
   function add() {
+    if(name === "" || email === ""){
+      return alert("fill the box");
+    }
     
     const newItem = {
       id: new Date().getTime(),
